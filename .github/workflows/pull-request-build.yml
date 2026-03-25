@@ -14,7 +14,7 @@ env:
   SCRIPT_LOCATION: 'workflows/start-pull-request-build/pull-request-build-v1.sh'
 
   # custom variables
-  IAM_ROLE_ARN: 'arn:aws:iam::086636366320:role/Boto3GitHubRole'
+  IAM_ROLE_ARN: 'arn:aws:iam::086636366320:role/AwsCliGitHubRole'
   ROLE_SESSION_DURATION_SECONDS: 7200
 
 jobs:
